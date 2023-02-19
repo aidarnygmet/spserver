@@ -22,9 +22,12 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	implementation("org.postgresql:postgresql")
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+	implementation("org.hibernate:hibernate-core:6.1.7.Final")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	// https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
-	implementation("org.mariadb.jdbc:mariadb-java-client:3.1.2")
 
 
 
